@@ -1,0 +1,86 @@
+.first {
+	float: left;
+	width: 75px;
+	height: 75px;
+	position: absolute;
+	top: -70px;
+}
+
+.second {
+	float: left;
+	width: 130px;
+	height: 130px;
+	position: absolute;
+	top: -130px;
+	left: 30px;
+}
+
+h1 {
+	font-weight: bold;
+	font-family: Arial;
+	font-size: 1.5em;
+}
+
+h2 {
+	font-weight: bold;
+	font-family: Arial;
+	font-size: 1.5em;
+	margin-right: 75px;
+}
+
+p {
+	font-family: Arial;
+	font-size: 1.0em;
+	opacity: 0.7;
+	word-spacing: 3px;
+	line-height: 29px;
+	margin-right: 60px;
+}
+
+.psec {
+	text-align: center;
+}
+
+div {
+	position: relative;
+	display: inline-block;
+	width: 20%;
+	margin-left: 300px;
+	margin-top: 250px;
+	margin-right: -20px
+}
+
+div:nth-of-type(2) {
+	margin-left: -20px;
+}
+
+div:nth-of-type(3) {
+	margin-left: -20px;
+}
+
+div:nth-of-type(4) {
+	margin-left: -20px;
+}
+
+div:nth-of-type(5) {
+	text-align: center;
+	width: 260px;
+}
+
+div:nth-of-type(6) {
+	margin-left: 85px;
+	text-align: center;
+	width: 260px;
+}
+
+div:nth-of-type(7) {
+	margin-left: 85px;
+	text-align: center;
+	width: 260px;
+}
+
+div:nth-of-type(8) {
+	margin-left: 85px;
+	text-align: center;
+	width: 260px;
+}
