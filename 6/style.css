@@ -1,0 +1,52 @@
+body, html {
+  height: 100%;
+}
+
+body {
+  background-image: url("wall2.jpg");
+
+  height: 100%;
+  margin: 0;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+  position: fixed;
+}
+
+div.first {
+	border: 3px solid white;
+	color: black;
+	background-color: white;
+	opacity: 0.8;
+	border-radius: 15px;
+	width: 50%;
+	height: 70%;
+	margin: 140px 400px;
+	z-index: 0;
+	position: fixed;
+	font-size: 1.2em;
+}
+
+div.second {
+	display: inline-block;
+  width: 400px;
+  height: 600px;
+  padding: 5px;
+  margin: 30px;
+  border: 3px solid dodgerblue;
+  background-color: dodgerblue;
+  border-radius: 15px;
+}
+
+div.third {
+	display: inline-block;
+  width: 400px;
+  height: 600px;
+  padding: 5px;
+  margin: 20px;
+  border: 3px solid tomato;
+  background-color: tomato;
+  border-radius: 15px;
+}
