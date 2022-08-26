@@ -1,0 +1,59 @@
+body {
+	margin: 0;
+}
+
+#girl {
+	position: fixed;
+	height: 100vh;
+	width: 50vw;
+	object-fit: cover;
+}
+
+#globe {
+	margin: 100px 50px 20px;
+	height: 150px;
+	width: 150px;
+}
+
+div {
+	height: 100vh;
+	width: 50vw;
+	float: right;
+}
+
+h1 {
+	margin: 20px 35px;
+	font-size: 4em;
+	font-family: Arial
+}
+
+h2 {
+	margin: 1px 45px 40px;
+	font-size: 1.4em;
+	opacity: 0.5;
+	font-family: Arial
+}
+
+input {
+	margin: 7px 45px 3px;
+	font-family: Arial;
+	padding: 15px 330px 15px 15px;
+	font-weight: bold;
+}
+#submit {
+	background-color: #13a139;
+	font-family: Arial;
+	color: white;
+	border: 3px outset #13a139;
+	border-radius: 5px;
+	width: 527px;
+	font-size: 1.25em;
+	text-align: center;
+}
+
+p {
+	font-family: Arial;
+	opacity: 0.4;
+	font-size: 1em;
+	margin: 10px 45px;
+}
