@@ -1,0 +1,43 @@
+body, html {
+	height: 100%;
+	margin: 0;
+}
+
+.bg {
+  background-image: url("yes.jpg");
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(30%);
+  z-index: -1;
+}
+
+.text {
+	position: absolute;
+	top: 150px;
+	left: 300px;
+	font-family: Arial;
+	color: white;
+}
+
+h1 {
+	font-size: 3em;
+	margin-bottom: 20px;
+}
+
+p {
+	font-size: 1.2em;
+	opacity: 0.6;
+	width: 60%;
+}
+
+input {
+	background-color: orange;
+	padding: 15px 20px;
+	border-radius: 5px;
+	border: 3px solid orange;
+	color: white;
+	font-weight: bold;
+	font-size: 1.3em;
+}
